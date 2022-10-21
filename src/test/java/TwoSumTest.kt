@@ -20,9 +20,9 @@ class TwoSumTest {
     private companion object {
         @JvmStatic
         fun twoSumArguments(): Stream<Arguments> = Stream.of(
-            Arguments.of(arrayOf(3, 2, 4).toIntArray(), 6, arrayOf(1, 2).toIntArray()),
-            Arguments.of(arrayOf(3, 3).toIntArray(), 6, arrayOf(0,1).toIntArray()),
-            Arguments.of(arrayOf(2, 7, 11, 15).toIntArray(), 9, arrayOf(0,1).toIntArray()),
+            Arguments.of(intArrayOf(3, 2, 4), 6, intArrayOf(1, 2)),
+            Arguments.of(intArrayOf(3, 3), 6, intArrayOf(0,1)),
+            Arguments.of(intArrayOf(2, 7, 11, 15), 9, intArrayOf(0,1)),
         )
     }
 }

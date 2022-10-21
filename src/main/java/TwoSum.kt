@@ -4,14 +4,17 @@ class TwoSum {
     * Difficulty: Easy
     */
     fun twoSum(nums: IntArray, target: Int): IntArray {
-        nums.forEachIndexed { i, one ->
-            nums.forEachIndexed { j, two ->
-                if((one + two) == target && i != j) {
-                    return arrayOf(i, j).toIntArray()
-                }
+        val hashMap = mutableMapOf<Int, Int>()
+
+        nums.forEachIndexed { index, value ->
+            val diff = target - value
+
+            if(hashMap.contains(diff)){
+                return@twoSum intArrayOf(hashMap[diff]!!, index)
             }
+
+            hashMap[value] = index
         }
         throw Throwable("This problem has no solution!")
     }
-
 }
