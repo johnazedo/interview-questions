@@ -6,6 +6,7 @@ class TwoSum {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         val hashMap = mutableMapOf<Int, Int>()
 
+        // This is a linear solution with O(N) space complexity
         nums.forEachIndexed { index, value ->
             val diff = target - value
 
