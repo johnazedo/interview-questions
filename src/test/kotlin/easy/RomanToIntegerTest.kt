@@ -1,3 +1,6 @@
+package easy
+
+import easy.RomanToInteger
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.MethodSource
@@ -19,8 +22,8 @@ class RomanToIntegerTest {
         @JvmStatic
         fun arguments(): Stream<Arguments> = Stream.of(
             Arguments.of("III", 3),
-            Arguments.of("LVIII", 58),
             Arguments.of("MCMXCIV", 1994),
+            Arguments.of("LVIII", 58),
         )
     }
 }

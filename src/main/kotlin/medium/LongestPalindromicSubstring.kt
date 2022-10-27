@@ -1,3 +1,5 @@
+package medium
+
 class LongestPalindromicSubstring {
 
     /*

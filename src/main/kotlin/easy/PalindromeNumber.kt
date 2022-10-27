@@ -1,3 +1,5 @@
+package easy
+
 class PalindromeNumber {
     /*
      * Link: https://leetcode.com/problems/palindrome-number/

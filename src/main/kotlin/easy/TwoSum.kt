@@ -1,3 +1,5 @@
+package easy
+
 class TwoSum {
     /*
     * Link: https://leetcode.com/problems/two-sum/
