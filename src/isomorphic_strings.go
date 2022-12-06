@@ -1,5 +1,9 @@
 package src
 
+/*
+Difficult: Easy
+Link: https://leetcode.com/problems/isomorphic-strings
+*/
 func isIsomorphic(s string, t string) bool {
 	stot := make(map[byte]byte)
 	ttos := make(map[byte]byte)

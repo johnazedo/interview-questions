@@ -1,5 +1,9 @@
 package src
 
+/*
+Difficult: Easy
+Link: https://leetcode.com/problems/is-subsequence
+*/
 func isSubsequence(s string, t string) bool {
 	sPtr := 0
 	tPtr := 0
