@@ -1,6 +1,9 @@
 package src
 
 func reverseList(head *ListNode) *ListNode {
+	// Time: O(N)
+	// Space: O(N)
+
 	stack := []int{}
 	temp := head
 
