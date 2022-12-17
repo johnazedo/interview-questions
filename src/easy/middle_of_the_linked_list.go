@@ -1,8 +1,15 @@
-package src
+package easy
 
-import "math"
+import (
+	"github.com/johnazedo/leetcode/src"
+	"math"
+)
 
-func middleNode(head *ListNode) *ListNode {
+/*
+Difficult: Easy
+Link: https://leetcode.com/problems/middle-of-the-linked-list
+*/
+func middleNode(head *src.ListNode) *src.ListNode {
 	if head == nil {
 		return head
 	}

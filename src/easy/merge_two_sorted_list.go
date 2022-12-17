@@ -1,7 +1,13 @@
-package src
+package easy
 
-func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
-	head := &ListNode{}
+import "github.com/johnazedo/leetcode/src"
+
+/*
+Difficult: Easy
+Link: https://leetcode.com/problems/merge-two-sorted-lists
+*/
+func mergeTwoLists(list1 *src.ListNode, list2 *src.ListNode) *src.ListNode {
+	head := &src.ListNode{}
 	var v1 int
 	var v2 int
 	temp := head
