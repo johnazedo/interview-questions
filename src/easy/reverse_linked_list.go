@@ -10,6 +10,7 @@ func reverseList(head *src.ListNode) *src.ListNode {
 	// Time: O(N)
 	// Space: O(N)
 
+	// TODO: Do this with O(1) space complexity
 	stack := []int{}
 	temp := head
 
