@@ -12,8 +12,8 @@ Link: https://leetcode.com/problems/validate-binary-search-tree/
 func isValidBST(root *TreeNode) bool {
 	min := math.MinInt
 	max := math.MaxInt
-	// Time: ??
-	// Space: ??
+	// Time: O(N)
+	// Space: O(N)
 	return helper(root, min, max)
 }
 
