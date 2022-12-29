@@ -9,9 +9,9 @@ Link: https://leetcode.com/problems/binary-tree-preorder-traversal/
 func preorderTraversal(root *TreeNode) []int {
 	stack := []*TreeNode{root}
 	var result []int
-	// N is the number of nodes
+	// N is the number of nodes and H is the height of the tree
 	// Time: O(N)
-	// Space: O(N)
+	// Space: O(H)
 	for len(stack) > 0 {
 		n := len(stack) - 1
 		root = stack[n]
