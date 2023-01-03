@@ -5,6 +5,7 @@ Difficult: Easy
 Link: https://leetcode.com/problems/backspace-string-compare/
 */
 func backspaceCompare(s string, t string) bool {
+	// TODO: Can you do this with O(1) space complexity?
 	// Time: O(N + M)
 	// Space: O(N + M)
 	return getNewString(s) == getNewString(t)
