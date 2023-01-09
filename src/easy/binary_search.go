@@ -1,8 +1,11 @@
 package easy
 
 /*
+Number: 704
 Difficult: Easy
 Link: https://leetcode.com/problems/binary-search/
+Tags: Array, Binary Search
+Status: Reviewed
 */
 func search(nums []int, target int) int {
 	// Time: O(LogN)
