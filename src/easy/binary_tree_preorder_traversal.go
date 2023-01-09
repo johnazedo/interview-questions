@@ -7,6 +7,7 @@ Difficult: Easy
 Link: https://leetcode.com/problems/binary-tree-preorder-traversal/
 */
 func preorderTraversal(root *TreeNode) []int {
+	// TODO: Do this recursively
 	stack := []*TreeNode{root}
 	var result []int
 	// N is the number of nodes and H is the height of the tree
