@@ -5,8 +5,11 @@ import (
 )
 
 /*
+Number: 145
 Difficult: Easy
 Link: https://leetcode.com/problems/binary-tree-postorder-traversal/
+Tags: Stack, Tree, Depth-First Search
+Status: Resolved
 */
 func postorderTraversal(root *TreeNode) []int {
 	// N is the number of nodes and H is the height of the tree
