@@ -3,11 +3,13 @@ package easy
 import . "github.com/johnazedo/leetcode/src"
 
 /*
+Number: 144
 Difficult: Easy
 Link: https://leetcode.com/problems/binary-tree-preorder-traversal/
+Tags: Stack, Tree, Depth-First Search
+Status: Reviewed
 */
 func preorderTraversal(root *TreeNode) []int {
-	// TODO: Do this recursively
 	stack := []*TreeNode{root}
 	var result []int
 	// N is the number of nodes and H is the height of the tree
@@ -27,6 +29,15 @@ func preorderTraversal(root *TreeNode) []int {
 			}
 		}
 	}
-
 	return result
+}
+
+func recursivePre(root *TreeNode, result *[]int) {
+	if root == nil {
+		return
+	}
+
+	*result = append(*result, root.Val)
+	recursivePre(root.Left, result)
+	recursivePre(root.Right, result)
 }
