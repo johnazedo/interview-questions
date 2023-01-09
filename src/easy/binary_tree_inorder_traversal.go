@@ -5,8 +5,11 @@ import (
 )
 
 /*
+Number: 94
 Difficult: Easy
 Link: https://leetcode.com/problems/binary-tree-inorder-traversal/
+Tags: Stack, Tree, Depth-First Search
+Status: Reviewed
 */
 func inorderTraversal(root *TreeNode) []int {
 	// N is the number of nodes and H is the height of the tree
