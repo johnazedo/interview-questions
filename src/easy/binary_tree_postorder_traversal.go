@@ -29,6 +29,7 @@ func recursivePost(root *TreeNode, result *[]int) {
 	*result = append(*result, root.Val)
 }
 
+// Has no official solution by leetcode.
 // This is not working
 // Error: out of memory (infinite loop)
 // Solution: Use a right child stack
