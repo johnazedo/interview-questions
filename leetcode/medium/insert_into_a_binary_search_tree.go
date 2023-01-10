@@ -1,6 +1,6 @@
 package medium
 
-import . "github.com/johnazedo/leetcode/leetcode"
+import . "github.com/johnazedo/interview-questions/leetcode"
 
 /*
 Difficult: Medium

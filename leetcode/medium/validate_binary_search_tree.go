@@ -1,7 +1,7 @@
 package medium
 
 import (
-	. "github.com/johnazedo/leetcode/leetcode"
+	. "github.com/johnazedo/interview-questions/leetcode"
 	"math"
 )
 
