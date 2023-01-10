@@ -1,8 +1,11 @@
 package easy
 
 /*
+Number 217
 Difficult: Easy
 Link: https://leetcode.com/problems/contains-duplicate/
+Tags: Array, Hash Table, Sorting
+Status: Reviewed
 */
 func containsDuplicate(nums []int) bool {
 	mapping := make(map[int]int)
