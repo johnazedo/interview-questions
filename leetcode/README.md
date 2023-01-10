@@ -21,6 +21,7 @@ Status:
 | 144 | Binary Tree Preorder Traversal | `Stack` `Tree` `Depth-First Search` | :white_check_mark: | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/binary_tree_preorder_traversal.go) |
 | 145 | Binary Tree Postorder Traversal | `Stack` `Tree` `Depth-First Search` | :construction:    | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/binary_tree_postorder_traversal.go) |
 | 217 | Contains Duplicate | `Array`, `Hash Table`, `Sorting`|:white_check_mark: | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/contains_duplicate.go) |
+| 509 | Fibonacci Number | `Math`, `Dynamic Programming` | :white_check_mark | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/fibonacci_number.go) |
 | 704    | Binary Search | `Array` `Binary Search`         | :white_check_mark: | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/binary_search.go) |
 | 844    | Backspace String Compare | `Two Pointers` `String` `Stack` | :white_check_mark: |  [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/backspace_string_compare.go) |
 
