@@ -1,11 +1,13 @@
 package easy
 
 /*
+Number: 70
 Difficult: Easy
 Link: https://leetcode.com/problems/climbing-stairs/
+Tags: Math, Dynamic Programming, Memorization
+Status: Reviewed
 */
 func climbStairs(n int) int {
-	// TODO: Do this with dynamic programming
 	// Time: O(N)
 	// Space: O(1)
 	prev := 1
