@@ -1,12 +1,12 @@
 package easy
 
-import "github.com/johnazedo/leetcode/src"
+import "github.com/johnazedo/leetcode/leetcode"
 
 /*
 Difficult: Easy
 Link: https://leetcode.com/problems/reverse-linked-list
 */
-func reverseList(head *src.ListNode) *src.ListNode {
+func reverseList(head *leetcode.ListNode) *leetcode.ListNode {
 	// Time: O(N)
 	// Space: O(N)
 

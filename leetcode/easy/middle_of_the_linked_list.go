@@ -1,7 +1,7 @@
 package easy
 
 import (
-	"github.com/johnazedo/leetcode/src"
+	"github.com/johnazedo/leetcode/leetcode"
 	"math"
 )
 
@@ -9,7 +9,7 @@ import (
 Difficult: Easy
 Link: https://leetcode.com/problems/middle-of-the-linked-list
 */
-func middleNode(head *src.ListNode) *src.ListNode {
+func middleNode(head *leetcode.ListNode) *leetcode.ListNode {
 	if head == nil {
 		return head
 	}

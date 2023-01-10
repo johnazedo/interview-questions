@@ -1,15 +1,15 @@
 package medium
 
 import (
-	"github.com/johnazedo/leetcode/src"
+	"github.com/johnazedo/leetcode/leetcode"
 )
 
 /*
 Difficult: Medium
 Link: https://leetcode.com/problems/linked-list-cycle-ii
 */
-func detectCycle(head *src.ListNode) *src.ListNode {
-	mapping := make(map[*src.ListNode]int)
+func detectCycle(head *leetcode.ListNode) *leetcode.ListNode {
+	mapping := make(map[*leetcode.ListNode]int)
 	for {
 		if head == nil {
 			return nil
