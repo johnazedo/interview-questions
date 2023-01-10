@@ -1,4 +1,4 @@
-module github.com/johnazedo/leetcode
+module github.com/johnazedo/interview-questions
 
 go 1.19
 
