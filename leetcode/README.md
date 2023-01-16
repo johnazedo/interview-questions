@@ -1,8 +1,8 @@
 # Leetcode
 
-A repository to store leetcode solved question.
+A repository to store leetcode solved problems.
 
-Status: 
+### Questions types: 
 
 | Symbol            | Description |
 |-------------------| ----------- |
@@ -10,7 +10,7 @@ Status:
 | :construction:    | Resolved |
 | :x:               | Unsolved | 
 
-## Easy
+### Easy
 
 | Number | Title                              | Tags                            | Status              | Solution                                                                                                         |
 |--------|------------------------------------|---------------------------------|---------------------|------------------------------------------------------------------------------------------------------------------| 
@@ -29,4 +29,4 @@ Status:
 | 724 | Find Pivot Index                   | `Array` `Prefix Sum` | :white_check_mark:  | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/find_pivot_index.go)             
 | 844    | Backspace String Compare           | `Two Pointers` `String` `Stack` | :white_check_mark:  | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/backspace_string_compare.go)     |
 
-## Medium
+### Medium
