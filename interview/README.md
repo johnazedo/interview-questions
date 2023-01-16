@@ -14,5 +14,5 @@ A repository to store problems presented in real interviews;
 ### Problems
 
 | Interview date | Description | Company | Status |
-| -------------- | ----------- | ------- | ------ |
-| December 05, 2022 | Word Search | Uber | :X: | 
+| -------------- | ----------- | ------- |--------|
+| December 05, 2022 | Word Search | Uber | :x:    | 
