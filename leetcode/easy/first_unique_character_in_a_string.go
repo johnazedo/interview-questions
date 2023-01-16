@@ -1,8 +1,11 @@
 package easy
 
 /*
+Number: 387
 Difficult: Easy
 Link: https://leetcode.com/problems/first-unique-character-in-a-string/
+Tags: Hash Table, String, Queue
+Status: Resolved
 */
 func firstUniqChar(s string) int {
 	// TODO: Review this question

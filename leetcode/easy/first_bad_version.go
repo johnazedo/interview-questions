@@ -4,8 +4,11 @@ package easy
 func isBadVersion(version int) bool { return false }
 
 /*
+Number: 278
 Difficult: Easy
 Link: https://leetcode.com/problems/first-bad-version/
+Tags: Binary Search, Interactive
+Status: Reviewed
 */
 func firstBadVersion(n int) int {
 	// Time: O(LogN)

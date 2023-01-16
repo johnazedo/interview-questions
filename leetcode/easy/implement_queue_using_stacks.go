@@ -1,8 +1,11 @@
 package easy
 
 /*
+Number: 232
 Difficult: Easy
 Link: https://leetcode.com/problems/implement-queue-using-stacks/
+Tags: Stack, Design, Queue
+Status: Reviewed
 */
 
 type MyQueue struct {
@@ -13,20 +16,20 @@ func Constructor() MyQueue {
 	return MyQueue{}
 }
 
-func (this *MyQueue) Push(x int) {
-	this.stack = append(this.stack, x)
+func (q *MyQueue) Push(x int) {
+	q.stack = append(q.stack, x)
 }
 
-func (this *MyQueue) Pop() int {
-	value := this.stack[0]
-	this.stack = this.stack[1:]
+func (q *MyQueue) Pop() int {
+	value := q.stack[0]
+	q.stack = q.stack[1:]
 	return value
 }
 
-func (this *MyQueue) Peek() int {
-	return this.stack[0]
+func (q *MyQueue) Peek() int {
+	return q.stack[0]
 }
 
-func (this *MyQueue) Empty() bool {
-	return len(this.stack) == 0
+func (q *MyQueue) Empty() bool {
+	return len(q.stack) == 0
 }
