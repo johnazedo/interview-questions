@@ -1,10 +1,15 @@
 package easy
 
 /*
+Number: 205
 Difficult: Easy
 Link: https://leetcode.com/problems/isomorphic-strings
+Tags: Hash Table, String
+Status: Reviewed
 */
 func isIsomorphic(s string, t string) bool {
+	// Time: O(N)
+	// Space: O(N+M)
 	stot := make(map[byte]byte)
 	ttos := make(map[byte]byte)
 
