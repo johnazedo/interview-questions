@@ -3,14 +3,17 @@ package easy
 import "sort"
 
 /*
+Number: 350
 Difficult: Easy
 Link: https://leetcode.com/problems/intersection-of-two-arrays-ii/
+Tags: Array, Hash Table, Two Pointers, Binary Search, Sorting
+Status: Reviewed
 */
 func intersect(nums1 []int, nums2 []int) []int {
-	// Time: O(n*log(n))
-	// Space: O(1)
+	// Sorting solution
+	// Time: O(M*log(M) + N*log(N))
+	// Space: O(min(M, N))
 
-	// TODO: Do this using hash map
 	sort.Ints(nums1)
 	sort.Ints(nums2)
 
@@ -33,6 +36,35 @@ func intersect(nums1 []int, nums2 []int) []int {
 			result = append(result, nums1[p1])
 			p1++
 			p2++
+		}
+	}
+
+	return result
+}
+
+func intersectHashMap(nums1 []int, nums2 []int) []int {
+	// HashMap solution
+	// Time: O(M+N)
+	// Space: O(M)
+	// Obs: If check the smallest array the space complexity will be O(min(N, M))
+
+	mapping := make(map[int]int)
+	var result []int
+
+	for _, v := range nums1 {
+		if _, ok := mapping[v]; ok {
+			mapping[v]++
+		} else {
+			mapping[v] = 1
+		}
+	}
+
+	for _, v := range nums2 {
+		if value, ok := mapping[v]; ok {
+			if value > 0 {
+				mapping[v]--
+				result = append(result, v)
+			}
 		}
 	}
 
