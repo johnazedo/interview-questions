@@ -4,7 +4,7 @@ package easy
 Number: 733
 Difficult: Easy
 Link: https://leetcode.com/problems/flood-fill/
-Tags: Array, Depth-First Search, Breath-First Search
+Tags: Array, Depth-First Search, Breadth-First Search
 Status: Resolved
 */
 func floodFill(image [][]int, sr int, sc int, color int) [][]int {

@@ -9,8 +9,8 @@ Questions types:
 
 Problems status:
 
-| Symbol            | Description |
-|-------------------| ----------- |
-| :white_check_mark: | Resolved and Reviewed |
-| :construction:    | Resolved |
-| :x:               | Unsolved | 
+| Symbol              | Description           |
+|---------------------|-----------------------|
+| :white_check_mark:  | Resolved and Reviewed |
+| :construction:      | Resolved              |
+| :x:                 | Unsolved              |
