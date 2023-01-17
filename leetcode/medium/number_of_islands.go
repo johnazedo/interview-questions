@@ -12,7 +12,7 @@ func numIslands(grid [][]byte) int {
 	// TODO: Do this with Breadth-First Search
 	// TODO: Do this with Union Find (Disjoint Set)
 	// Time: O(Nˆ2)
-	// Space: O(1)
+	// Space: O(Nˆ2)
 
 	count := 0
 	for i := 0; i < len(grid); i++ {
