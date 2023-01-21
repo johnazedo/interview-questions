@@ -41,3 +41,4 @@ A repository to store leetcode solved problems.
 | 36     | Valid Sudoku      | `Array` `Hash Table` `Matrix`                                    | :construction: | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/medium/valid_sudoku.go)      |
 | 62     | Unique Paths      | `Math` `Dynamic Programming` `Combinatorics`                     | :construction: | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/medium/unique_paths.go)      |
 | 200    | Number of Islands | `Array` `Depth-First Search` `Breadth-First Search` `Union Find` | :construction: | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/medium/number_of_islands.go) |
+| 299    | Bulls and Cows    | `Hash Table` `String` `Counting`                                 | :x:            | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/medium/bulls_and_cows.go)    |
