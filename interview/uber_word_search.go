@@ -3,7 +3,7 @@ package interview
 /*
 INTERVIEW DATE: December 05, 2022
 COMPANY: Uber
-STATUS: Solved
+STATUS: Resolved
 
 DESCRIPTION:
 Given a two-dimensional array of letters, find a given word written in any of the 8 directions.
