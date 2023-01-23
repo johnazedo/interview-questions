@@ -34,6 +34,6 @@ func lastStoneWeight(stones []int) int {
 
 // Heap-Based simulation approach
 func lastStoneWeightHeapBased(stones []int) int {
-	// TODO: Implement a priority queue
+	// TODO: Heap-Based approach
 	return 0
 }
