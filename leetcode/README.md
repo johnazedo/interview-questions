@@ -33,6 +33,7 @@ A repository to store leetcode solved problems.
 | 724    | Find Pivot Index                   | `Array` `Prefix Sum`                                             | :white_check_mark: | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/find_pivot_index.go)                   |
 | 733    | Flood Fill                         | `Array` `Depth-First Search` `Breath-First Search`               | :construction:     | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/flood_fill.go)                         |
 | 844    | Backspace String Compare           | `Two Pointers` `String` `Stack`                                  | :white_check_mark: | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/backspace_string_compare.go)           |
+| 1046   | Last Stone Weight                  | `Array` `Heap (Priority Queue)`                                  | :construction:     | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/easy/last_stone_weight.go)                  |
 
 ### Medium
 
