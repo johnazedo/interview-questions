@@ -5,12 +5,15 @@ import (
 )
 
 /*
+Number 141
 Difficult: Easy
 Link: https://leetcode.com/problems/linked-list-cycle/
+Tags: Hash Table, Linked List, Two Pointers
+Status: Resolved
 */
-func hasCycle(head *ListNode) bool {
 
-	// TODO: Do this with O(1) space complexity
+// HashTable approach
+func hasCycle(head *ListNode) bool {
 	// Time: O(N)
 	// Space: O(N)
 	mapping := make(map[*ListNode]int)
@@ -27,4 +30,28 @@ func hasCycle(head *ListNode) bool {
 	}
 
 	return false
+}
+
+// Two pointers approach
+func hasCycleBetterSpaceComplexity(head *ListNode) bool {
+	// Time: O(N) -> Because the worst case is when the slowest one does a full loop
+	// Space: O(1)
+
+	if head == nil {
+		return false
+	}
+
+	slow := head
+	fast := head.Next
+
+	for slow != fast {
+		if fast == nil || fast.Next == nil {
+			return false
+		}
+
+		slow = slow.Next
+		fast = fast.Next.Next
+	}
+
+	return true
 }
