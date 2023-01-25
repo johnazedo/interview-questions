@@ -9,7 +9,7 @@ Number 141
 Difficult: Easy
 Link: https://leetcode.com/problems/linked-list-cycle/
 Tags: Hash Table, Linked List, Two Pointers
-Status: Resolved
+Status: Reviewed
 */
 
 // HashTable approach
