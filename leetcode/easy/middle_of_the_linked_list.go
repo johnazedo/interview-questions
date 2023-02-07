@@ -1,19 +1,22 @@
 package easy
 
 import (
-	"github.com/johnazedo/interview-questions/leetcode"
+	. "github.com/johnazedo/interview-questions/leetcode"
 	"math"
 )
 
 /*
+Number: 876
 Difficult: Easy
 Link: https://leetcode.com/problems/middle-of-the-linked-list
+Tags: Linked List, Two Pointers
+Status: Reviewed
 */
-func middleNode(head *leetcode.ListNode) *leetcode.ListNode {
-	if head == nil {
-		return head
-	}
-	if head.Next == nil {
+
+func middleNode(head *ListNode) *ListNode {
+	// Time: O(N)
+	// Space: O(1)
+	if head == nil || head.Next == nil {
 		return head
 	}
 
@@ -32,4 +35,17 @@ func middleNode(head *leetcode.ListNode) *leetcode.ListNode {
 	}
 
 	return middle
+}
+
+// Best approach: Slow and Fast pointer
+func middleNodeBest(head *ListNode) *ListNode {
+	// Time: O(N)
+	// Space: O(1)
+	slow := head
+	for head != nil && head.Next != nil {
+		slow = slow.Next
+		head = head.Next.Next
+	}
+
+	return slow
 }
