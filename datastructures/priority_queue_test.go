@@ -7,9 +7,9 @@ import (
 func TestPriorityQueue(t *testing.T) {
 	pq := NewPQ(3)
 	expected := Item{3, 3}
+	pq.Add(Item{3, 3})
 	pq.Add(Item{1, 1})
 	pq.Add(Item{2, 2})
-	pq.Add(Item{3, 3})
 
 	// Test Add()
 	if len(pq.Queue) != 3 {
