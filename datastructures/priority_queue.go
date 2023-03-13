@@ -8,7 +8,6 @@ OBS: Append built-in function has O(N) time complexity in the worst case, so avo
 */
 
 // TODO: Create a priority queue using heap
-// TODO: Create test to this implementation
 
 type Item struct {
 	Priority int
@@ -16,15 +15,15 @@ type Item struct {
 }
 
 type PQ struct {
-	Size     int
-	Capacity int
+	size     int
+	capacity int
 	Queue    []Item
 }
 
 func NewPQ(capacity int) *PQ {
 	return &PQ{
-		Size:     0,
-		Capacity: capacity,
+		size:     0,
+		capacity: capacity,
 		Queue:    make([]Item, capacity, capacity),
 	}
 }
@@ -33,8 +32,8 @@ func (pq *PQ) Add(value Item) {
 	// Can add anywhere
 	// Time: O(1)
 	if !pq.Full() {
-		pq.Queue[pq.Size] = value
-		pq.Size++
+		pq.Queue[pq.size] = value
+		pq.size++
 	}
 }
 
@@ -54,24 +53,24 @@ func (pq *PQ) GetMax() Item {
 	pq.swap(index)
 
 	// Remove the last element
-	pq.Queue = pq.Queue[:pq.Size-1]
-	pq.Size--
+	pq.Queue = pq.Queue[:pq.size-1]
+	pq.size--
 	return item
 }
 
 func (pq *PQ) swap(index int) {
 	// Puts the element in the last position and puts the last element in the index position
-	pq.Queue[index], pq.Queue[pq.Size-1] = pq.Queue[pq.Size-1], pq.Queue[index]
+	pq.Queue[index], pq.Queue[pq.size-1] = pq.Queue[pq.size-1], pq.Queue[index]
 }
 
 func (pq *PQ) GetSize() int {
-	return pq.Size
+	return pq.size
 }
 
 func (pq *PQ) Empty() bool {
-	return pq.Size == 0
+	return pq.size == 0
 }
 
 func (pq *PQ) Full() bool {
-	return pq.Size == pq.Capacity
+	return pq.size == pq.capacity
 }
