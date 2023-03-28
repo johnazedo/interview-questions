@@ -29,7 +29,7 @@ int main() {
     for(itr = vm.begin(); itr != vm.end(); itr++) {
         for(jtr = vn.begin(); jtr != vn.end(); jtr++) {
             int value = *itr+*jtr;
-            if(vm.find(value) == vm.end() || vn.find(value) == vn.end()) {
+            if(vm.find(value) == vm.end() && vn.find(value) == vn.end()) {
                 cout << *itr << " " << *jtr << endl;
                 return 0;
             }
