@@ -2,6 +2,13 @@
 #include <map>
 using namespace std;
 
+/*
+Difficult: C
+Score: 300
+Link: https://vjudge.net/contest/550194#problem/C
+Contest: Treino 02
+*/
+
 int main() {
     int m, n, temp;
     while (cin >> m >> n && m != 0 && n != 0)
