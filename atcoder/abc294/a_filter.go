@@ -11,7 +11,7 @@ Link: https://atcoder.jp/contests/abc294/tasks/abc294_a
 Contest: abc294
 */
 
-func main() {
+func filter() {
 	// Time: O(N)
 	// Space: O(N)
 

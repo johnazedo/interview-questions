@@ -9,7 +9,7 @@ Link: https://atcoder.jp/contests/abc294/tasks/abc294_c
 Contest: abc294
 */
 
-func main() {
+func mergeSequence() {
 
 	var a, b int
 	fmt.Scanf("%d %d", &a, &b)
