@@ -38,6 +38,6 @@ A repository to store AtCoder contests solutions.
 
 ### ABC295
 
-| Grade | Score | Name             | Status             | Link                                                                              |
-|-------|-------|------------------|--------------------|-----------------------------------------------------------------------------------|
-| A     | 100   | Probably English | :white_check_mark: | [File](https://github.com/johnazedo/interview-questions/tree/main/atcoder/abc295) | 
+| Grade | Score | Name             | Status         | Link                                                                              |
+|-------|-------|------------------|----------------|-----------------------------------------------------------------------------------|
+| A     | 100   | Probably English | :construction: | [File](https://github.com/johnazedo/interview-questions/tree/main/atcoder/abc295) | 
