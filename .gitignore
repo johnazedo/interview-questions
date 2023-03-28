@@ -173,4 +173,6 @@ fabric.properties
 # For VJudge/*/out
 out
 
+.vscode
+
 # End of https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode
