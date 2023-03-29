@@ -3,13 +3,17 @@
 using namespace std;
 
 /*
-Difficult: A
-Score: 100
-Link: https://vjudge.net/contest/550194#problem/A
-Contest: Treino 02
+Difficult: -
+Score: -
+Link: https://cses.fi/problemset/task/1621
+Contest: DIM0410 - Treino #2 STL
+Status: Solved and Reviewed
 */
 
 int main() {
+    // Time: O(N)
+    // Space: O(N)
+
     int n;
     cin >> n;
 

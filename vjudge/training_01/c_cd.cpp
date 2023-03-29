@@ -3,13 +3,17 @@
 using namespace std;
 
 /*
-Difficult: C
-Score: 300
-Link: https://vjudge.net/contest/550194#problem/C
-Contest: Treino 02
+Difficult: -
+Score: -
+Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2949
+Contest: DIM0410 - Treino #2 STL
+Status: Solved
 */
 
 int main() {
+    // Time: O(N)
+    // Space: O(N)
+    
     int m, n, temp;
     while (cin >> m >> n && m != 0 && n != 0)
     {   

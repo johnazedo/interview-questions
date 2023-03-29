@@ -3,13 +3,17 @@
 using namespace std;
 
 /*
-Difficult: B
-Score: 200
-Link: https://vjudge.net/contest/550194#problem/B
-Contest: Treino 02
+Difficult: A
+Score: -
+Link: https://cses.fi/problemset/task/1621
+Contest: DIM0410 - Treino #2 STL
+Status: Solved
 */
 
 int main() {
+    // Time: O(N*M)
+    // Space: O(N+M)
+    
     int m, n, temp;
     set<int> vm, vn;
     set<int>::iterator itr, jtr;
