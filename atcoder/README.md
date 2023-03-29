@@ -22,7 +22,6 @@ A repository to store AtCoder contests solutions.
 |-------|-------|--------------|--------------------|------------------------------------------------------------------------------------------------------|
 | A     | 100   | Camel Case   | :white_check_mark: | [File](https://github.com/johnazedo/interview-questions/blob/main/atcoder/abc291/a_camel_case.go)    | 
 | B     | 200   | Trimmed Mean | :white_check_mark: | [File](https://github.com/johnazedo/interview-questions/blob/main/atcoder/abc291/b_trimmed_mean.cpp) |
-
 ### ABC293
 
 | Grade | Score | Name              | Status             | Link                                                                                                     |
@@ -39,6 +38,7 @@ A repository to store AtCoder contests solutions.
 
 ### ABC295
 
-| Grade | Score | Name             | Status         | Link                                                                              |
-|-------|-------|------------------|----------------|-----------------------------------------------------------------------------------|
-| A     | 100   | Probably English | :construction: | [File](https://github.com/johnazedo/interview-questions/tree/main/atcoder/abc295) | 
+| Grade | Score | Name             | Status         | Link                                                                                                    |
+|-------|-------|------------------|----------------|---------------------------------------------------------------------------------------------------------|
+| A     | 100   | Probably English | :construction: | [File](https://github.com/johnazedo/interview-questions/tree/main/atcoder/abc295/a_probably_english.go) | 
+| B     | 200   | Bombs            | :construction: | [File](https://github.com/johnazedo/interview-questions/tree/main/atcoder/abc295/b_bombs.cpp)           |
