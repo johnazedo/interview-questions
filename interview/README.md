@@ -5,11 +5,11 @@ A repository to store problems presented in real interviews;
 
 ### Questions types:
 
-| Symbol              | Description           |
-|---------------------|-----------------------|
-| :white_check_mark:  | Resolved and Reviewed |
-| :construction:      | Resolved              |
-| :x:                 | Unsolved              |
+| Symbol              | Description |
+|---------------------|-------------|
+| :white_check_mark:  | Solved      |
+| :construction:      | Can improve |
+| :x:                 | Unsolved    |
 
 ### Problems
 

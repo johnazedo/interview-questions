@@ -5,11 +5,11 @@ A repository to store questions about data structures implementations.
 
 ### Questions types:
 
-| Symbol              | Description           |
-|---------------------|-----------------------|
-| :white_check_mark:  | Resolved and Reviewed |
-| :construction:      | Resolved              |
-| :x:                 | Unsolved              |
+| Symbol              | Description |
+|---------------------|-------------|
+| :white_check_mark:  | Solved      |
+| :construction:      | Can improve |
+| :x:                 | Unsolved    |
 
 ### Data structures
 

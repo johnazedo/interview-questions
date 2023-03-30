@@ -4,11 +4,11 @@ A repository to store leetcode solved problems.
 
 ### Questions types: 
 
-| Symbol              | Description           |
-|---------------------|-----------------------|
-| :white_check_mark:  | Resolved and Reviewed |
-| :construction:      | Resolved              |
-| :x:                 | Unsolved              |
+| Symbol              | Description |
+|---------------------|-------------|
+| :white_check_mark:  | Solved      |
+| :construction:      | Can improve |
+| :x:                 | Unsolved    |
 
 ### Easy
 
