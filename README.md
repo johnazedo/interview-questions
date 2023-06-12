@@ -4,9 +4,9 @@ A place to store algorithms and data structure problems.
 
 Questions types:
 
-- [Real interviews problems;](https://github.com/johnazedo/interview-questions/tree/main/interview)
-- [Leetcode's problems;](https://github.com/johnazedo/interview-questions/tree/main/leetcode)
-- [Implementations of data structures.](https://github.com/johnazedo/interview-questions/tree/main/datastructures)
+- [Real interviews problems;](https://github.com/johnazedo/interview-questions/tree/golang/interview)
+- [Leetcode's problems;](https://github.com/johnazedo/interview-questions/tree/golang/leetcode)
+- [Implementations of data structures.](https://github.com/johnazedo/interview-questions/tree/golang/datastructures)
 
 Problems status:
 
