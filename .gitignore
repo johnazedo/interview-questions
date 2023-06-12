@@ -1,30 +1,41 @@
-# Created by https://www.toptal.com/developers/gitignore/api/goland+all,go
-# Edit at https://www.toptal.com/developers/gitignore?templates=goland+all,go
+# Created by https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode,clion
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,visualstudiocode,clion
 
-### Go ###
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
 *.so
 *.dylib
+*.dll
 
-# Test binary, built with `go test -c`
-*.test
+# Fortran module files
+*.mod
+*.smod
 
-# Output of the go coverage tool, specifically when used with LiteIDE
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
 *.out
+*.app
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
-
-# Go workspace file
-go.work
-
-### GoLand+all ###
+### CLion ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -103,53 +114,39 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-### GoLand+all Patch ###
-# Ignore everything but code style settings and run configurations
-# that are supposed to be shared within teams.
+### CLion Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-.idea/*
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
 
-!.idea/codeStyles
-!.idea/runConfigurations
+# Sonarlint plugin
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.idea/**/sonarlint/
 
-# End of https://www.toptal.com/developers/gitignore/api/goland+all,go
+# SonarQube Plugin
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea/**/sonarIssues.xml
 
-# Created by https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++,visualstudiocode
+# Markdown Navigator plugin
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
 
-### C++ ###
-# Prerequisites
-*.d
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# CodeStream plugin
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Azure Toolkit for IntelliJ plugin
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+.idea/**/azureSettings.xml
 
 ### VisualStudioCode ###
 .vscode/*
@@ -170,9 +167,5 @@ fabric.properties
 .history
 .ionide
 
-# For VJudge/*/out
 out
-
-.vscode
-
-# End of https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode,clion
