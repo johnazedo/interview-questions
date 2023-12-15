@@ -26,4 +26,5 @@ A repository to store leetcode solved problems.
 | Number | Title                | Tags                                                                                    | Status         | Solution                                                                                                   |
 |--------|----------------------|-----------------------------------------------------------------------------------------|----------------|------------------------------------------------------------------------------------------------------------|
 | 02     | Add Two Numbers        | `Linked List` `Math` `Recursion`                                                           | :construction: | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/medium/add_two_numbers.cpp)         |
+| 06 | ZigZag Conversion | | :x: | [File](https://github.com/johnazedo/interview-questions/blob/main/leetcode/medium/zigzag_conversion.cpp) |
 
